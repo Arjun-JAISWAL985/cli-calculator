@@ -1,0 +1,16 @@
+[package]
+name = "calc-cli"
+version = "0.1.0"
+edition = "2021"
+
+# Binary configuration (hyphens allowed)
+[[bin]]
+name = "calc-cli"
+path = "src/main.rs"
+
+# Library configuration (must use underscores)
+[lib]
+name = "calc_cli"
+path = "src/lib.rs"
+
+[dependencies]
